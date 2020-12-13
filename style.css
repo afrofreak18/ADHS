@@ -17,14 +17,14 @@
   border: 2px rgb(0, 0, 0) solid;
   color: rgb(255, 255, 255);
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -ms-border-radius:20px;
+  -o-border-radius:20px;
   padding-left: 1px;
   background-color:rgb(0, 0, 0);
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-bottom-left-radius: 17px;
+  border-top-right-radius: 17px;
   font-style:arial;
 }
 
@@ -128,3 +128,13 @@
       width: 100%;
     }
   }
+
+  .img1:hover {
+    width: 600px;
+    height: 400px;
+  }
+  .img1 {
+    width: 300px;
+    height: 170px;
+    background: red;
+    transition: width 2s, height 4s;
