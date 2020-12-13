@@ -1,3 +1,33 @@
+.Autisten {
+ background-color:rgb(255, 255, 255);
+ border-right: none;
+ border-radius: 10px;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ -ms-border-radius:10px;
+ -o-border-radius:10px;
+ border-bottom-right-radius: 20px;
+ border-top-right-radius: 20px ;
+ border: 2px black solid;
+ padding-left: 2px;
+ font-style:arial;
+}
+
+.hub {
+  border: 2px rgb(0, 0, 0) solid;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding-left: 1px;
+  background-color:rgb(0, 0, 0);
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-style:arial;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -5,7 +35,7 @@
   body {
     font-family: Arial;
     padding: 10px;
-    background: #f1f1f1;
+    background: #a0a0a0;
   }
   
   .header {
@@ -17,11 +47,11 @@
   .header h1 {
     font-size: 50px;
   }
-  
+
   .topnav {
     overflow: hidden;
     background-color: #333;
-    border: red solid;
+    border: rgb(0, 0, 0) 2px solid;
   }
 
   .topnav a {
@@ -36,8 +66,9 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(100, 100, 100);
     color: black;
+    font-weight: 600;
   }
   
   .leftcolumn {   
@@ -48,7 +79,7 @@
   .rightcolumn {
     float: left;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color:  #a0a0a0;
     padding-left: 20px;
   }
   
@@ -56,12 +87,14 @@
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+    border:black 2px solid;
   }
   
   .card {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
+    border: 2px solid black;
   }
   
   .row:after {
@@ -73,8 +106,9 @@
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(255, 255, 255);
     margin-top: 20px;
+    border-top: 5px black solid;
   }
   
   @media screen and (max-width: 800px) {

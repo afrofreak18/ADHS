@@ -21,9 +21,9 @@
   .topnav {
     overflow: hidden;
     background-color: #333;
-    border: red solid;
+    border: rgb(0, 0, 0) solid;
   }
-
+   
   .topnav a {
     float: left;
     display: block;
@@ -62,6 +62,7 @@
     background-color: white;
     padding: 20px;
     margin-top: 20px;
+    border: 2px black solid;
   }
   
   .row:after {
@@ -73,8 +74,9 @@
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(255, 255, 255);
     margin-top: 20px;
+    border-top: 5px Solid black;
   }
   
   @media screen and (max-width: 800px) {
